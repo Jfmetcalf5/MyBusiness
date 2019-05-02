@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView android:id="@+id/MelshAppsLogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:scaleType="fitStart"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/melsh_apps_logo" />
+
+    <TextView android:id="@+id/Information"
+        android:text="If you own a small business or simply have an idea for a cool app, call for a inexpensive way to make your app a reality."
+        android:textAlignment="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Address"
+        android:layout_centerHorizontal="true" />
+
+    <TextView android:text="MelshApps"
+        android:id="@+id/BusinessName"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/PhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView android:text="801-674-8280"
+        android:id="@+id/PhoneNumber"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView android:text="Kearns UT"
+        android:id="@+id/Address"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/PhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/Information"
+        android:padding="12dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/imformation" />
+
+</RelativeLayout>
